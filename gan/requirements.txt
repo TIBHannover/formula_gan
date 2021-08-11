@@ -1,0 +1,7 @@
+torch==1.7.1
+torchvision==0.7.0
+pytorch-lightning==0.8.5
+msgpack==1.0.0
+h5py==2.10.0
+opencv-python-headless==4.5.1.48
+imageio==2.9.0
