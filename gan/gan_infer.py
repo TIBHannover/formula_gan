@@ -163,6 +163,7 @@ def main():
                 for j in range(model_output.shape[0]):
                     generated_image = model_output[j, 0].detach().cpu()
                     if np.sum(generated_image.numpy()) > 1:
+                        generated_image = 255 - generated_image
                         output_path = os.path.join(
                             config.to_args().infer.output_path, os.path.basename(data["path"][j])
                         )
