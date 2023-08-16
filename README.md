@@ -12,7 +12,7 @@ To create a docker container with all dependencies and the source code you need 
 
 ```sh
 docker build . -t gan 
-```In
+```
 
 ### Inference
 
