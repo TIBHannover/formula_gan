@@ -37,6 +37,12 @@ sudo docker run -v "$(pwd)"/../data:/data gan python gan_infer.py \
 
 ### NTCIR-12 MathIR
 
-Randomly generated images from the NTCIR-12 MathIR images, based on a random latex font and resolution. Dateset is stored in a webdataset and contains more than 400000 synthetic images from the gan. (The dateset contains a few more examples than specified in the paper. Unfortunately the original files were on a failed HDD and could not be reconstructed.)
+Randomly generated images from the NTCIR-12 MathIR dataset, based on a random latex font and resolution. Dateset is stored in a webdataset format and contains more than 400000 synthetic images from the gan. (The dateset contains a few more examples than specified in the paper. Unfortunately the original files were on a failed HDD and could not be reconstructed.)
 
 [Link to Webdataset](https://tib.eu/cloud/s/33zLLydQPy6SrtG)
+
+### Im2Latex
+
+Randomly generated images from the Im2Latex dataset, based on a random latex font and resolution. Dateset is stored in a webdataset format and contains more than 290000 synthetic images from the gan. (The dateset contains a few more examples than specified in the paper. Unfortunately the original files were on a failed HDD and could not be reconstructed.)
+
+[Link to Webdataset](https://tib.eu/cloud/s/TqDZ6EeGfd3eEpd)
